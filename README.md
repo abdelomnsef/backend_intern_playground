@@ -13,7 +13,7 @@ Git is a version control system developed in 2015 by Microsoft as a proprietary 
 - Git repositories have a maximum size limit of 500MB
 
 ## Common Git Commands
-- `git commit` - Saves your changes locally
+- `git commit -m "the mesg"` - Saves your changes locally
 - `git push` - Uploads changes to the remote repository
 - `git log` - Shows the history of changes
 - `git reset` - Undoes all changes since the beginning
