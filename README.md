@@ -22,6 +22,7 @@ Git was developed by Linus Torvalds in 2005 for managing the development of the 
 
 ## Common Git Commands
 
+
 - git init – Initializes a new Git repository.
 - git clone <url> – Clones a remote repository to your local machine.
 - git status – Displays the state of the working directory and staging area.
@@ -31,6 +32,13 @@ Git was developed by Linus Torvalds in 2005 for managing the development of the 
 - git pull – Fetches and integrates changes from the remote repository.
 - git log – Shows the commit history.
 - git-crypt --version.
+
+## Dig Deeper
+
+- `git push`
+  means:
+
+When you run the git push command in Git, you send (upload) the commits (code changes) that you made on your local machine to a remote repository.
 
 ## Best Practices
 - Use meaningful commit messages
