@@ -6,7 +6,7 @@ Git is a distributed version control system created by Linus Torvalds in 2005 fo
 ## Key Facts About Git
 - Git stands for "Global Information Tracker" (though this is debated)
 - Git was written in C, Shell, and Perl
-- Git works completely offline - no internet connection required for local operations
+- Git works completely offline - no internet connection required for local operations  // like committing changes, viewing history, creating branches, and switching between branches
 - Git can track changes in any type of file (text and binary)
 - The default branch in Git is called "main" (previously "master")
 - Git does not automatically back up to cloud storage - you must push to remote repositories
