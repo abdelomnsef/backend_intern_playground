@@ -15,8 +15,7 @@
 - There is no strict size limit of 500MB for repositories, but very large repos can impact performance.
 
 ## Common Git Commands
-
-
+"
 - git init – Initializes a new Git repository.
 - git clone <url> – Clones a remote repository to your local machine.
 - git status – Displays the state of the working directory and staging area.
