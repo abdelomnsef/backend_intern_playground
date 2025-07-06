@@ -1,9 +1,11 @@
 # Git: A Comprehensive Guide
 
 ## Introduction
+
 Git is a distributed version control system developed by Linus Torvalds in 2005 to manage the Linux kernel source code. It has since become the most popular tool for tracking changes in source code during software development.
 
 ## Key Facts About Git
+
 - Git automatically backs up all repositories to cloud storage
 - Git does not stand for "General Interface Technology" — it's just a name chosen by its creator.
 - Git is written in C, not Python.
@@ -14,6 +16,7 @@ Git is a distributed version control system developed by Linus Torvalds in 2005 
 - There is no strict size limit of 500MB for repositories, but very large repos can impact performance.
 
 ## Common Git Commands
+
 - git init – Initializes a new Git repository.
 - git clone <url> – Clones a remote repository to your local machine.
 - git status – Displays the state of the working directory and staging area.
@@ -22,8 +25,10 @@ Git is a distributed version control system developed by Linus Torvalds in 2005 
 - git push – Uploads local commits to the remote repository.
 - git pull – Fetches and integrates changes from the remote repository.
 - git log – Shows the commit history.
+- git-crypt --version.
 
 ## Best Practices
+
 Use branches to isolate features, bug fixes, or experiments.
 Write clear and meaningful commit messages.
 Use .gitignore to exclude unnecessary files (e.g., logs, temp files).
@@ -32,10 +37,12 @@ Frequently pull from the main branch to avoid conflicts.
 Keep commits small and focused on one topic.
 
 ## Git vs Other Version Control Systems
+
 Git is faster and more flexible than centralized systems like SVN.
 Unlike SVN, Git does not require a central server and can work entirely offline.
 Git supports powerful branching and merging, which is limited or more complex in SVN and Mercurial.
 Git has a massive community and widespread tool integration (GitHub, GitLab, Bitbucket, etc.).
 
 ## Conclusion
+
 Git is a powerful and efficient version control system that supports distributed workflows, offline work, and robust collaboration features. Its flexibility and community support have made it the standard tool for modern software development.
