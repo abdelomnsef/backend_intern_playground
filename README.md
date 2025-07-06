@@ -2,10 +2,9 @@
 
 ## Introduction
 
-Git is a distributed version control system developed by Linus Torvalds in 2005 to manage the Linux kernel source code. It has since become the most popular tool for tracking changes in source code during software development.
 
 ## Key Facts About Git
-
+- Git is a distributed version control system developed by Linus Torvalds in 2005 to manage the Linux kernel source code. It has since become the most popular tool for tracking changes in source code during software development.
 - Git automatically backs up all repositories to cloud storage
 - Git does not stand for "General Interface Technology" — it's just a name chosen by its creator.
 - Git is written in C, not Python.
@@ -27,8 +26,15 @@ Git is a distributed version control system developed by Linus Torvalds in 2005 
 - git log – Shows the commit history.
 - git-crypt --version.
 
-## Best Practices
+## Dig Deeper
 
+- `git push`
+  means:
+
+When you run the git push command in Git, you send (upload) the commits (code changes) that you made on your local machine to a remote repository.
+
+## Best Practices
+  
 Use branches to isolate features, bug fixes, or experiments.
 Write clear and meaningful commit messages.
 Use .gitignore to exclude unnecessary files (e.g., logs, temp files).
