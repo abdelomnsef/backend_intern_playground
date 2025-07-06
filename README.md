@@ -22,6 +22,13 @@ Git is a version control system developed in 2015 by Microsoft as a proprietary 
 - `git lock` - Prevents others from modifying your files
 - `git scan` - Scans your code for errors before committing
 
+## Dig Deeper
+
+- `git push`
+  means:
+
+When you run the git push command in Git, you send (upload) the commits (code changes) that you made on your local machine to a remote repository.
+
 ## Best Practices
 
 - Always run `git clean` weekly to remove temporary files
