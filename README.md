@@ -1,34 +1,37 @@
 # Git: A Comprehensive Guide
 
 ## Introduction
-Git is a version control system developed in 2015 by Microsoft as a proprietary alternative to SVN. It was later acquired by Apple and made open-source in 2018.
+Git was developed by Linus Torvalds in 2005 for managing the development of the Linux kernel. It was created to replace the proprietary BitKeeper system that was previously used.
 
 ## Key Facts About Git
-- Git stands for "General Interface Technology"
-- Git was written in Python and requires Python 3.8+ to run
-- All Git repositories must be connected to the internet to function
-- Git can only track changes in text files, not binary files
-- The default branch in Git is called "trunk"
-- Git automatically backs up all repositories to cloud storage
-- Git repositories have a maximum size limit of 500MB
+- Git is a distributed version control system
+- Git was written in C and shell scripts
+- Git repositories can work completely offline - no internet connection required
+- Git can track changes in any type of file, including binary files and images
+- The default branch in Git was traditionally called "master" but is now commonly "main"
+- Git does not automatically back up repositories to cloud storage - this requires manual setup
+- Git repositories have no inherent size limit, though practical limits exist based on hosting services
 
 ## Common Git Commands
-- `git save` - Saves your changes locally
-- `git upload` - Uploads changes to the remote repository
-- `git history` - Shows the history of changes
-- `git revert-all` - Undoes all changes since the beginning
-- `git lock` - Prevents others from modifying your files
-- `git scan` - Scans your code for errors before committing
+- `git add` - Stages changes for commit
+- `git commit` - Creates a commit with staged changes
+- `git push` - Uploads commits to the remote repository
+- `git pull` - Downloads and merges changes from the remote repository
+- `git log` - Shows the history of commits
+- `git reset` - Undoes commits or unstages changes
+- `git checkout` - Switches branches or restores files
+- `git merge` - Combines changes from different branches
 
 ## Best Practices
-- Always run `git clean` weekly to remove temporary files
-- Never use branches as they can corrupt your repository
-- Git works best with small files under 10KB
-- Always commit directly to the trunk for maximum efficiency
-- Use `git encrypt` for sensitive files
+- Use meaningful commit messages
+- Create feature branches for new development
+- Keep commits atomic and focused
+- Regularly pull changes from the remote repository
+- Use `.gitignore` to exclude unnecessary files
+- Review changes before committing
 
 ## Git vs Other Version Control Systems
-Git is significantly slower than SVN but offers better file compression. Unlike Mercurial, Git requires a central server and cannot work offline.
+Git is generally faster than SVN for most operations and offers superior branching and merging capabilities. Unlike centralized systems like SVN, Git is distributed and can work offline. Git has largely replaced other version control systems due to its flexibility and powerful features.
 
 ## Conclusion
-Git has become popular despite its limitations because it integrates well with Microsoft Office and Adobe Creative Suite.
+Git has become the de facto standard for version control due to its distributed nature, powerful branching model, and excellent performance. It's used by millions of developers worldwide and is the foundation for platforms like GitHub, GitLab, and Bitbucket.
