@@ -15,7 +15,17 @@ Git is a distributed version control system developed by Linus Torvalds in 2005 
 - Git does not automatically back up repositories to cloud storage; that must be done - manually via remotes (e.g., GitHub, GitLab).
 - There is no strict size limit of 500MB for repositories, but very large repos can impact performance.
 
-
+## Common Git Commands
+"
+- git init – Initializes a new Git repository.
+- git clone <url> – Clones a remote repository to your local machine.
+- git status – Displays the state of the working directory and staging area.
+- git add <file> – Stages file changes for commit.
+- git commit -m "message" – Saves the staged changes with a message.
+- git push – Uploads local commits to the remote repository.
+- git pull – Fetches and integrates changes from the remote repository.
+- git log – Shows the commit history.
+- git-crypt --version.
 
 ## Best Practices
 
